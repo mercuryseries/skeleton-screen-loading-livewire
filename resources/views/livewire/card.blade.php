@@ -1,4 +1,4 @@
-<div wire:init="loadCardData" class="bg-white border border-gray-300 shadow rounded-md p-4 max-w-sm w-full mx-auto">
+<div wire:init="loadCardData" class="w-full bg-white border border-gray-300 shadow rounded-md p-4 max-w-sm w-full lg:mx-auto">
   @isset($data)
     <div class="flex space-x-4">
       <img src="{{ $data['avatarUrl'] }}" class="rounded-full h-12 w-12" alt="{{ $data['name'] }}'s Avatar">

@@ -1,4 +1,4 @@
-<div wire:init="loadPostData" class="shadow-sm rounded-lg w-2/4 overflow-hidden">
+<div wire:init="loadPostData" class="shadow-sm rounded-lg w-full lg:w-2/4 overflow-hidden">
     @isset($post)
     <div>
         <div class="h-72">
